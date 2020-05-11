@@ -6,8 +6,7 @@ public class LayDownCommand implements Command {
 
     private Exercise exercise;
 
-    public LayDownCommand(Exercise exercise)
-    {
+    public LayDownCommand(Exercise exercise) {
         this.exercise = exercise;
     }
 

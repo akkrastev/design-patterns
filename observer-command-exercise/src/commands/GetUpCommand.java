@@ -6,8 +6,7 @@ public class GetUpCommand implements Command {
 
     private Exercise exercise;
 
-    public GetUpCommand(Exercise exercise)
-    {
+    public GetUpCommand(Exercise exercise) {
         this.exercise = exercise;
     }
 

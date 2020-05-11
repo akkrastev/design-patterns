@@ -4,7 +4,6 @@ import interfaces.Command;
 
 public class Instructor {
 
-
     private Command command;
 
     public void setExercise(Command command) {
@@ -12,7 +11,7 @@ public class Instructor {
     }
 
     public String switchExercise() {
-        System.out.println("Fitness Instructor is switching the exercise.");
+        System.out.println("Instructor is switching the exercise.");
         return this.command.execute();
     }
 }

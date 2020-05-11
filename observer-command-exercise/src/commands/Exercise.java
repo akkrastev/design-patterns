@@ -4,7 +4,7 @@ public class Exercise {
 
     private boolean isUp;
 
-    public  String getUp(){
+    public String getUp() {
         System.out.println("Exercise is getting up.");
         this.isUp = true;
         return "get up";

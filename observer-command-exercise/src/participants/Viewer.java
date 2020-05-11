@@ -11,9 +11,10 @@ public class Viewer implements Observer {
     public Viewer(String name) {
         this.setName(name);
     }
+
     @Override
     public void update() {
-        if(trainee != null) {
+        if (trainee != null) {
             String exercise = trainee.getUpdate();
             System.out.println(this.name + " updated exercise to " + exercise);
         } else {
@@ -23,12 +24,14 @@ public class Viewer implements Observer {
 
     @Override
     public void setTrainee(Observable trainee) {
-        this.trainee=trainee;
+        this.trainee = trainee;
 
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }

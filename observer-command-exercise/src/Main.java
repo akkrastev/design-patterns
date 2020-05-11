@@ -11,9 +11,9 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Instructor instructor= new Instructor();
+        Instructor instructor = new Instructor();
         Exercise exercise = new Exercise();
         Trainee trainee = new Trainee();
         Command getUpExercise = new GetUpCommand(exercise);
@@ -34,6 +34,6 @@ public class Main {
 
         instructor.setExercise(goDownCommand);
         trainee.doExercise(instructor.switchExercise());
-        }
     }
+}
 
